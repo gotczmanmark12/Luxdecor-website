@@ -111,9 +111,19 @@ header.scrolled {
 }
 
 .menu-btn {
+  display: none;
   font-size: 24px;
   cursor: pointer;
-  color:white;
+  color: white;
+  position: relative;
+  z-index: 3;
+}
+
+/* 📱 mobil */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
 }
 
 .menu-btn:hover{
