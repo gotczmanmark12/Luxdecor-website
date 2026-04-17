@@ -1,0 +1,22 @@
+{
+  "name": "luxdecor-website",
+  "version": "1.0.0",
+  "description": "Luxdecor - Stucco Veneziano and marble wall decoration website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "luxdecor",
+    "stucco",
+    "veneziano",
+    "marble",
+    "wall-decoration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
